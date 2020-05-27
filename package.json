@@ -1,0 +1,33 @@
+{
+  "name": "vuex-decorators",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": "git@github.com:ElijahKotyluk/decorators.git",
+  "author": "Elijah Kotyluk <elijah@elijahkotyluk.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint '*/**/*.{js,ts}'",
+    "lint:fix": "eslint '*/**/*.{js,ts}'",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest",
+    "commit": "yarn git-cz",
+    "clean": "rm -rf dist node_modules",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^3.0.1",
+    "@typescript-eslint/parser": "^3.0.1",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.0.0",
+    "vuex": "^3.4.0"
+  }
+}
